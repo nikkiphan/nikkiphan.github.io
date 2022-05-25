@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Nikki Phan Design System</title>
+    <link rel="icon" type="image/x-icon" href="images/lightfavicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+      <a href="../index.html" class="logo">
+        <img class="logo-image" src="../images/748be7logo.png">
+      </a>
+       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="component1.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="#">Buttons</a>
+                </li>
+                <li>
+                    <a href="component3.html">Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/pattern1.html">Design Page</a>
+                </li>
+                <li>
+                    <a href="../patterns/pattern2.html">About Page</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h2>Buttons</h2>
+              <p>This page contains three button states: normal, hover, and disabled.
+              </p>
+
+              <h3>Example</h3>
+
+              <!-- INSERT BUTTONS HERE -->
+
+              <h5>Normal Button</h5>
+              <button type="button" class="btn btn-primary btn-normal">Button</button>
+
+              <h5>Hover Button</h5>
+              <button type="button" class="btn btn-primary btn-hover">Button</button>
+
+              <h5>Disabled Button</h5>
+              <button type="button" class="btn btn-primary btn-disabled">Button</button>
+
+              <h3>Accessibility</h3>
+              <p>Ensure that buttons are labeled descriptively in a way that is accurate to their function and/or the page they will direct to.</p>
+
+              <h3>Usages</h3>
+              <p>Buttons should be used to link to case studies and portfolio pieces.</p>
+
+              <h3>Code Example</h3>
+
+              <pre class="language-markup">
+                <code>
+                  &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-normal&quot;&gt;Button&lt;/button&gt;
+                </code>
+              </pre><!-- Code example -->
+
+    		             
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

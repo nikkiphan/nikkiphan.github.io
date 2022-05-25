@@ -1,80 +1,105 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+  	<title>Nikki Phan Design System</title>
+    <link rel="icon" type="image/x-icon" href="../images/lightfavicon.png">
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <link href="../css/npPage.css" rel="stylesheet">
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
 
-    <title>Nikki Phan (HCI 472)</title>
-    <link rel="icon" type="image/x-icon" href="../images/748be7favicon.png">
+<!-- This is the link to the toggle hamburger -->
 
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
-
-    <!-- Navigation -->
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../images/748be7logo.png" alt="logo" width="30" height="30">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Home</a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="design/design.html">Design</a>
-              </li> -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Tutorials
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="../exercises/ST1_Carousel.html">ST 1: Carousel</a></li>
-                  <li><a class="dropdown-item" href="../exercises/ST1_Cards.html">ST 1: Cards and Modal </a></li>
-                  <li><a class="dropdown-item" href="../exercises/ST2_AccordionTable.html">ST 2: Accordion and Table</a></li>
-                  <li><a class="dropdown-item" href="../exercises/LIL_CSS_JS_Animations.html">LIL: CSS and JS Animations</a></li>
-
-                </ul>
-              </li>
-              <li class="nav-item dropdown aria-current=page">
-                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Typographical Hierarchies
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Fraunces + Nunito Sans</a></li>
-                  <li><a class="dropdown-item" href="TH2.html">Libre Franklin</a></li>
-                  <li><a class="dropdown-item" href="TH3.html">Red Hat Display</a></li>
-                </ul>
-              </li>
-
-            </ul>
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
           </div>
-        </div>
-      </nav>
+		<div class="p-4 pt-6">
+      <a href="../index.html" class="logo">
+        <img class="logo-image" src="../images/748be7logo.png" alt="logo">
+      </a>
 
- 
-    <div class="container text-container front-page-text">
-        <div class="row">
-          <h1 class="page-title">Hierarchy One</h1>
-          <h2>Pairing Typefaces</h2>
-          <h4 class="typefacename">Fraunces + Nunito Sans</h2>
-          <p>
-            Major Third Scale, <a href="https://type-scale.com/">type-scale.com</a>
-            <br>
-            Base Size: 16px
-          </p>
-        </div>
 
-        <!-- TH Table -->
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse.show list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="#">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="../components/component1.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="../components/component2.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="../components/component3.html">Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/pattern1.html">Design Page</a>
+                </li>
+                <li>
+                    <a href="../patterns/pattern2.html">About Page</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h2>Typography</h2>
+              <h4>Fraunces + Nunito Sans</h4>
+              <p>The typographical hierarchy makes use of Fraunces and Nunito Sans. Fraunces is a serif font that with minimal flair, and it pairs well with Nunito Sans, which acts as a readable sans-serif typeface. Together, they are arranged in Major Third Scale with a base font size of 16px.</p>
+
+      <!-- TH Table -->
 
         <div class="thtable">
 
@@ -89,10 +114,10 @@
               <section class="col">
                   <p class="typeinfo">
                   <span class="typeinfo-title">Header</span><br>
-                  font-family: 'Fraunces-Regular', serif;<br> 
+                  font-family: 'Fraunces-SemiBold', serif;<br> 
                   font-weight: 400;<br>
                   font-style: normal;<br>
-                  font-size: 48.83px;</p>  
+                  font-size: 49.00px;</p>  
                 <hr>    
                 <p class="typeinfo">
                 <span class="typeinfo-title">Bodycopy</span><br>
@@ -117,10 +142,10 @@
             <section class="col">
                 <p class="typeinfo">
                 <span class="typeinfo-title">Header</span><br>
-                font-family: 'Fraunces-Regular', serif;<br> 
+                font-family: 'Fraunces-SemiBold', serif;<br> 
                 font-weight: 400;<br>
                 font-style: normal;<br>
-                font-size: 39.06px;</p>   
+                font-size: 39.00px;</p>   
               <hr>   
               <p class="typeinfo">
               <span class="typeinfo-title">Bodycopy</span><br>
@@ -144,10 +169,10 @@
           <section class="col">
               <p class="typeinfo">
               <span class="typeinfo-title">Header</span><br>
-              font-family: 'Fraunces-Regular', serif;<br> 
+              font-family: 'Fraunces-SemiBold', serif;<br> 
               font-weight: 400;<br>
               font-style: normal;<br>
-              font-size: 31.25px;</p>    
+              font-size: 31.00px;</p>    
             <hr>  
             <p class="typeinfo">
             <span class="typeinfo-title">Bodycopy</span><br>
@@ -185,6 +210,33 @@
       </section>
     </div>
     <hr>
+
+    <!-- ROW 5 -->
+
+    <div class="row th-row">
+      <section class="col">
+          <p class="h5paired">H5<br>Heading Five<br></p>
+          <p class="bodycopy-paired">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel luctus erat. Fusce pellentesque, risus sed tincidunt porta, felis neque laoreet nibh, nec porttitor risus ex sit amet arcu. Phasellus sed rutrum lacus. In at maximus tortor. Duis venenatis, metus id tristique rutrum, ante orci ultrices dui, sed cursus massa risus nec turpis. Vestibulum sem dui, auctor nec dictum a, dapibus nec odio.
+          </p>
+      </section>
+      <section class="col">
+          <p class="typeinfo">
+          <span class="typeinfo-title">Header</span><br>
+          font-family: 'Fraunces-Regular', serif;<br> 
+          font-weight: 400;<br>
+          font-style: normal;<br>
+          font-size: 20.00px;</p>    
+        <hr>  
+        <p class="typeinfo">
+        <span class="typeinfo-title">Bodycopy</span><br>
+        font-family: 'NunitoSans-Regular', sans-serif;<br> 
+        font-weight: 400;<br>
+        font-style: normal;<br>
+        font-size: 16.00px;</p>      
+    </section>
+  </div>
+  <hr>
 
     <!-- BODYTEXT -->
 
@@ -257,19 +309,16 @@
         
 
         <!-- END OF TH TABLE -->
+    		             
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
 
-      
-
-   
-
-    <footer class="footer">
-        <p>© Copyright Nikki Phan | Last Updated 2022</p>
-    </footer>
-
-
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

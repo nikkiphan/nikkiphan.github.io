@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Nikki Phan Design System</title>
+    <link rel="icon" type="image/x-icon" href="images/lightfavicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+      <a href="../index.html" class="logo">
+        <img class="logo-image" src="../images/748be7logo.png">
+      </a>
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="component1.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="component2.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="#">Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/pattern1.html">Design Page</a>
+                </li>
+                <li>
+                    <a href="../patterns/pattern2.html">About Page</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h2>Cards</h2>
+              <p>This page contains cards that will link to examples of design work. They will include a project title, image, description, and link to view the work in greater detail.</p>
+
+              <h3>Example</h3>
+              <p>The cards should be responsive. Adjust the browser to view the different sizes.</p>
+
+              <div class="container">
+                <div class="card">
+
+                  <div class="row">
+                    <div class="col-sm-12 col-xl-6">
+                      <img class="card-img-top" src="../images/Image Placeholder.png" alt="image placeholder">   
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                      
+                      <div class="card-body">
+                        <h3>Project Title</h3>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus ipsum, condimentum ut finibus a, suscipit ut ipsum. In hac habitasse platea dictumst. Vivamus nec magna nec lectus accumsan laoreet. Nunc elementum sit amet augue vitae ultricies. Aenean malesuada ullamcorper enim. Nulla maximus diam nisi, rhoncus tristique lectus pulvinar quis. Fusce in lectus pretium, aliquam quam in, mollis velit. Morbi arcu dolor, pulvinar quis tempor in, consectetur a lorem.  </p>
+                        <button type="button" class="btn btn-primary btn-normal">View</button>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>                
+              </div>
+
+
+                <h3>Accessibility</h3>
+                <p>Ensure that all images have the appropriate alt text and that the buttons are labeled correctly to reflect the page they will direct to.</p>
+  
+                <h3>Usages</h3>
+                <p>Cards must include an image, project title, description, and button to view.</p>
+
+
+              <h3>Code Example</h3>
+              <pre class="language-markup">
+                <code>
+                  &lt;div class=&quot;container&quot;&gt;
+                    &lt;div class=&quot;card&quot;&gt;
+                      &lt;div class=&quot;row&quot;&gt;
+                        &lt;div class=&quot;col-sm-12 col-xl-6&quot;&gt;
+                          &lt;img class=&quot;card-img-top&quot; src=&quot;../images/Image Placeholder.png&quot; alt=&quot;image placeholder&quot;&gt;   
+                        &lt;/div&gt;
+                        &lt;div class=&quot;col-sm-12 col-xl-6&quot;&gt;
+                          &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;h3&gt;Project Title&lt;/h3&gt;
+                            &lt;p class=&quot;card-text&quot;&gt;
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus ipsum, condimentum ut finibus a, suscipit ut ipsum. In hac habitasse platea dictumst. Vivamus nec magna nec lectus accumsan laoreet. Nunc elementum sit amet augue vitae ultricies. Aenean malesuada ullamcorper enim. Nulla maximus diam nisi, rhoncus tristique lectus pulvinar quis. Fusce in lectus pretium, aliquam quam in, mollis velit. Morbi arcu dolor, pulvinar quis tempor in, consectetur a lorem.  &lt;/p&gt;
+                            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-normal&quot;&gt;View&lt;/button&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;                
+                  &lt;/div&gt;
+                
+                </code>
+              </pre><!-- Code example -->
+
+    		             
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
