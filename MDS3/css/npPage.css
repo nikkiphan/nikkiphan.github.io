@@ -1,0 +1,202 @@
+/* FONT INFO */
+
+@font-face {
+    font-family: 'Fraunces-Regular';
+    src: url(../fonts/Fraunces-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces-SemiBold';
+    src: url(../fonts/Fraunces-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'NunitoSans-Regular';
+    src: url(../fonts/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'NunitoSans-Bold';
+    src: url(../fonts/NunitoSans-Bold.ttf);
+}
+
+h1 {
+    font-family: 'Fraunces-Regular', serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 49px;
+}
+
+h2 {
+    font-family: 'Fraunces-Regular', serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 39px;
+}
+
+h3 {
+    font-family: 'Fraunces-Regular', serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 31px;
+}
+
+h4 {
+    font-family: 'Fraunces-Regular', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+h5 {
+    font-family: 'Fraunces-Regular', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'NunitoSans-Regular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* NAVIGATION */
+
+.bg-light {
+    background-color: #F3F3F3 !important;
+    margin-bottom: 20px;
+    font-family: 'NunitoSans-Bold', sans-serif;;
+    height: 100px;
+}
+
+.navbar-light {
+    color: #4a4a4a;
+}
+
+.active {
+    color: #748be7 !important;
+}
+
+.navbar-logo {
+    width: 58px;
+    height: 59px;
+    margin-left: 30px;
+}
+
+.navbar-toggler {
+    color: #bac4f2 !important;
+}
+
+.nav-item {
+    margin-right: 80px;
+}
+
+/* GLOBAL PAGE STYLES */
+
+.page-title {
+    margin: 40px auto auto;
+    width: 80%;
+}
+
+/* CARD CONTAINER */
+
+.card {
+    margin: 40px auto auto;
+    width: 80%;
+}
+
+.card-body {
+    margin: 10px;
+}
+
+/* ABOUT PAGE */
+
+.portrait {
+    width: 90%;
+    margin: auto;
+}
+
+.about-container {
+    margin: 40px auto auto;
+    width: 80%;
+}
+
+.intro-line {
+    padding: 20px 0;
+}
+
+/* BUTTONS */
+
+.btn {
+    width: 248px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px auto;
+    border: none;
+    
+  }
+  
+  .btn-normal:focus {
+    background-color:#bac4f2 !important;
+  }
+  
+  
+  .btn-normal {
+    background: #748BE7;
+  }
+  
+  .btn-normal:hover {
+    background:#bac4f2;
+  }
+  
+  
+  
+  .btn-hover {
+    background: #bac4f2;
+  }
+  
+  .btn-hover:hover {
+    background:#bac4f2;
+  }
+  
+  .btn-hover:focus {
+    background-color:#bac4f2 !important;
+  }
+  
+  
+  .btn-disabled {
+    background: #f3f3f3;
+    color: #4a4a4a;
+  }
+  
+  .btn-disabled:hover {
+    background:#f3f3f3;
+    color: #4a4a4a;
+  
+  }
+  
+  .btn-disabled:focus {
+    background:#f3f3f3 !important;
+    color: #4a4a4a !important;
+  
+  }
+
+/* FOOTER */
+
+.footer {
+    background-color: #f3f3f3;
+    height: 65px;
+    color: #4a4a4a;
+    font-family: 'NunitoSans-Bold', sans-serif;;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+
